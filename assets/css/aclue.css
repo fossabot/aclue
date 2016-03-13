@@ -19,11 +19,11 @@ ul.aclue > li > a::after {
 }
 ul.aclue > li > a[href^="http"]::before,
 a[href^="http"]::after {
-  content: "\f08e ";
+  content: "\f08e";
 }
 ul.aclue > li > a[href^="mailto:"]::before,
 a[href^="mailto:"]::after {
-  content: "\f003 ";
+  content: "\f003";
 }
 ul.aclue > li > a[href^="tel:"]::before,
 a[href^="tel:"]::after {
