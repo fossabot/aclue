@@ -1,0 +1,409 @@
+a::after,
+ul.aclue > li > a::before {
+  font-family: "fontawesome";
+}
+ul.aclue  {
+  list-style: none;
+}
+ul.aclue > li > a::after {
+  content: none;
+}
+ul.aclue > li > a[href^="http"]::before,
+a[href^="http"]::after {
+  content: "\0020\f08e\0020 ";
+}
+ul.aclue > li > a[href^="mailto:"]::before,
+a[href^="mailto:"]::after {
+  content: "\0020\f003\0020 ";
+}
+ul.aclue > li > a[href^="tel:"]::before,
+a[href^="tel:"]::after {
+  content: "\0020\f095\0020";
+}
+ul.aclue > li > a[href^="file:"]::before,
+a[href^="file:"]::after {
+  content: "\0020\f016\0020";
+}
+ul.aclue > li > a[href^="ftp:"]::before,
+a[href^="ftp:"]::after {
+  content: "\0020\f019\0020";
+}
+ul.aclue > li > a[href$=".pdf"]::before,
+a[href$=".pdf"]::after {
+  content: "\0020\f1c1\0020";
+  color: #ff0000;
+}
+ul.aclue > li > a[href$=".xlsx"]::before,
+a[href$=".xlsx"]::after,
+ul.aclue > li > a[href$=".ods"]::before,
+a[href$=".ods"]::after {
+  content: "\0020\f1c1\0020";
+  color: #007133;
+}
+ul.aclue > li > a[href$=".docx"]::before,
+a[href$=".docx"]::after,
+ul.aclue > li > a[href$=".odt"]::before,
+a[href$=".odt"]::after {
+  content: "\0020\f1c2\0020";
+  color: #2b579a;
+}
+ul.aclue > li > a[href$=".pptx"]::before,
+a[href$=".pptx"]::after,
+ul.aclue > li > a[href$=".odp"]::before,
+a[href$=".odp"]::after {
+  content: "\0020\f1c4\0020";
+  color: #db5a26;
+}
+ul.aclue > li > a[href$=".gif"]::before,
+a[href$=".gif"]::after,
+ul.aclue > li > a[href$=".png"]::before,
+a[href$=".png"]::after,
+ul.aclue > li > a[href$=".jpg"]::before,
+a[href$=".jpg"]::after,
+ul.aclue > li > a[href$=".jpeg"]::before,
+a[href$=".jpeg"]::after,
+ul.aclue > li > a[href$=".bmp"]::before,
+a[href$=".bmp"]::after,
+ul.aclue > li > a[href$=".psd"]::before,
+a[href$=".psd"]::after,
+ul.aclue > li > a[href$=".eps"]::before,
+a[href$=".eps"]::after,
+ul.aclue > li > a[href$=".indd"]::before,
+a[href$=".indd"]::after,
+ul.aclue > li > a[href$=".svg"]::before,
+a[href$=".svg"]::after {
+  content: "\0020\f1c5\0020";
+  color: #cc2783;
+}
+ul.aclue > li > a[href$=".rpm"]::before,
+a[href$=".rpm"]::after,
+ul.aclue > li > a[href$=".cab"]::before,
+a[href$=".cab"]::after,
+ul.aclue > li > a[href$=".msi"]::before,
+a[href$=".msi"]::after,
+ul.aclue > li > a[href$=".deb"]::before,
+a[href$=".deb"]::after,
+ul.aclue > li > a[href$=".deb"]::before,
+a[href$=".dmg"]::after,
+ul.aclue > li > a[href$=".iso"]::before,
+a[href$=".iso"]::after {
+  content: "\0020\f187\0020";
+  color: #ce5f12;
+}
+ul.aclue > li > a[href$=".zip"]::before,
+a[href$=".zip"]::after,
+ul.aclue > li > a[href$=".gzip"]::before,
+a[href$=".gzip"]::after,
+ul.aclue > li > a[href$=".7z"]::before,
+a[href$=".7z"]::after,
+ul.aclue > li > a[href$=".arj"]::before,
+a[href$=".arj"]::after,
+ul.aclue > li > a[href$=".bzip2"]::before,
+a[href$=".bzip2"]::after,
+ul.aclue > li > a[href$=".bzip"]::before,
+a[href$=".bzip"]::after,
+ul.aclue > li > a[href$=".lha"]::before,
+a[href$=".lha"]::after,
+ul.aclue > li > a[href$=".egg"]::before,
+a[href$=".egg"]::after,
+ul.aclue > li > a[href$=".rar"]::before,
+a[href$=".rar"]::after,
+ul.aclue > li > a[href$=".vhd"]::before,
+a[href$=".vhd"]::after,
+ul.aclue > li > a[href$=".tar"]::before,
+a[href$=".tar"]::after {
+  content: "\0020\f1c6\0020";
+  color: #eab710;
+}
+ul.aclue > li > a[href$=".mp1"]::before,
+a[href$=".mp1"]::after,
+ul.aclue > li > a[href$=".mp2"]::before,
+a[href$=".mp2"]::after,
+ul.aclue > li > a[href$=".mp3"]::before,
+a[href$=".mp3"]::after,
+ul.aclue > li > a[href$=".mp4"]::before,
+a[href$=".mp4"]::after,
+ul.aclue > li > a[href$=".aac"]::before,
+a[href$=".aac"]::after,
+ul.aclue > li > a[href$=".wma"]::before,
+a[href$=".wma"]::after,
+ul.aclue > li > a[href$=".wav"]::before,
+a[href$=".wav"]::after,
+ul.aclue > li > a[href$=".opus"]::before,
+a[href$=".opus"]::after,
+ul.aclue > li > a[href$=".ada"]::before,
+a[href$=".ada"]::after,
+ul.aclue > li > a[href$=".fla"]::before,
+a[href$=".fla"]::after,
+ul.aclue > li > a[href$=".flac"]::before,
+a[href$=".flac"]::after,
+ul.aclue > li > a[href$=".ogg"]::before,
+a[href$=".ogg"]::after {
+  content: "\0020\f1c7\0020";
+  color: #000000;
+}
+ul.aclue > li > a[href$=".txt"]::before,
+a[href$=".txt"]::after,
+ul.aclue > li > a[href$=".md"]::before,
+a[href$=".md"]::after,
+ul.aclue > li > a[href$=".textile"]::before,
+a[href$=".textile"]::after,
+ul.aclue > li > a[href$=".tex"]::before,
+a[href$=".tex"]::after {
+  content: "\0020\f0f6\0020";
+  color: #000000;
+}
+ul.aclue > li > a[href$=".c"]::before,
+a[href$=".c"]::after,
+ul.aclue > li > a[href$=".h"]::before,
+a[href$=".h"]::after,
+ul.aclue > li > a[href$=".cpp"]::before,
+a[href$=".cpp"]::after,
+ul.aclue > li > a[href$=".js"]::before,
+a[href$=".js"]::after,
+ul.aclue > li > a[href$=".css"]::before,
+a[href$=".css"]::after,
+ul.aclue > li > a[href$=".java"]::before,
+a[href$=".java"]::after,
+ul.aclue > li > a[href$=".py"]::before,
+a[href$=".py"]::after,
+ul.aclue > li > a[href$=".rb"]::before,
+a[href$=".rb"]::after,
+ul.aclue > li > a[href$=".sql"]::before,
+a[href$=".sql"]::after,
+ul.aclue > li > a[href$=".pl"]::before,
+a[href$=".pl"]::after,
+ul.aclue > li > a[href$=".pm"]::before,
+a[href$=".pm"]::after,
+ul.aclue > li > a[href$=".vim"]::before,
+a[href$=".vim"]::after,
+ul.aclue > li > a[href$=".lsp"]::before,
+a[href$=".lsp"]::after {
+  content: "\0020\f1c9\0020";
+  color: #0000ff;
+}
+ul.aclue > li > a[href*="500px.com"]::before,
+a[href*="500px.com"]::after {
+  content: "\0020\f26e\0020";
+  color: #0099e5;
+}
+ul.aclue > li > a[href*="app.net"]::before,
+a[href*="app.net"]::after {
+  content: "\0020\f170\0020";
+  color: #ffffff;
+}
+ul.aclue > li > a[href^="https://www.amazon."]::before,
+a[href^="https://www.amazon."]::after {
+  content: "\0020\f270\0020";
+  color: #ff9900;
+}
+ul.aclue > li > a[href^="https://angel.co"]::before,
+a[href^="https://angel.co"]::after {
+  content: "\0020\f209\0020";
+  color: #ffffff;
+}
+ul.aclue > li > a[href*="behance.net"]::before,
+a[href*="behance.net"]::after {
+  content: "\0020\f1b4\0020";
+  color: #1769ff;
+}
+ul.aclue > li > a[href^="https://bitbucket.org"]::before,
+a[href^="https://bitbucket.org"]::after {
+  content: "\0020\f171\0020";
+  color: #205081;
+}
+ul.aclue > li > a[href^="http://codepen.io"]::before,
+a[href^="http://codepen.io"]::after {
+  content: "\0020\f1cb\0020";
+  color: #ffffff;
+}
+ul.aclue > li > a[href*="linkedin.com"]::before,
+a[href*="linkedin.com"]::after {
+  content: "\0020\f0e1\0020";
+  color: #0077b5;
+}
+ul.aclue > li > a[href^="https://medium.com"]::before,
+a[href^="https://medium.com"]::after {
+  content: "\0020\f23a\0020";
+  color: #00ab6c;
+}
+ul.aclue > li > a[href^="https://www.facebook.com"]::before,
+a[href^="https://www.facebook.com"]::after {
+  content: "\0020\f230\0020";
+  color: #3b5998;
+}
+ul.aclue > li > a[href^="https://github.com"]::before,
+a[href^="https://github.com"]::after {
+  content: "\0020\f09b\0020";
+  color: #333333;
+}
+ul.aclue > li > a[href^="https://plus.google.com/"]::before,
+a[href^="https://plus.google.com/"]::after {
+  content: "\0020\f0d5\0020";
+  color: #dc4e41;
+}
+ul.aclue > li > a[href^="https://www.instagram.com"]::before,
+a[href^="https://www.instagram.com"]::after {
+  content: "\0020\f16d\0020";
+  color: #3f729b;
+}
+ul.aclue > li > a[href^="https://twitter.com"]::before,
+a[href^="https://twitter.com"]::after {
+  content: "\0020\f099\0020";
+  color: #55acee;
+}
+ul.aclue > li > a[href*="whatsapp://"]::before,
+a[href*="whatsapp://"]::after {
+  content: "\0020\f232\0020";
+  color: #43d854;
+}
+ul.aclue > li > a[href^="https://www.xing."]::before,
+a[href^="https://www.xing."]::after {
+  content: "\0020\f168\0020";
+  color: #026466;
+}
+ul.aclue > li > a[href^="https://www.youtube.com"]::before,
+a[href^="https://www.youtube.com"]::after {
+  content: "\0020\f167\0020";
+  color: #cd201f;
+}
+ul.aclue > li > a[href*="apple.com"]::before,
+a[href*="apple.com"]::after {
+  content: "\0020\f179\0020";
+  color: #999999;
+}
+ul.aclue > li > a[href^="https://play.google.com"]::before,
+a[href^="https://play.google.com"]::after {
+  content: "\0020\f17b\0020";
+  color: #a4c639;
+}
+ul.aclue > li > a[href^="https://soundcloud.com"]::before,
+a[href^="https://soundcloud.com"]::after {
+  content: "\0020\f1be\0020";
+  color: #ff8800;
+}
+ul.aclue > li > a[href*="spotify.com"]::before,
+a[href*="spotify.com"]::after {
+  content: "\0020\f1bc\0020";
+  color: #2ebd59;
+}
+ul.aclue > li > a[href^="http://stackoverflow.com"]::before,
+a[href^="http://stackoverflow.com"]::after {
+  content: "\0020\f16c\0020";
+  color: #fe7a15;
+}
+ul.aclue > li > a[href*="slack.com"]::before,
+a[href*="slack.com"]::after {
+  content: "\0020\f1e7\0020";
+  color: #e01563;
+}
+ul.aclue > li > a[href*="skype.com"]::before,
+a[href*="skype.com"]::after {
+  content: "\0020\f17e\0020";
+  color: #00aff0;
+}
+ul.aclue > li > a[href*="pinterest.com"]::before,
+a[href*="pinterest.com"]::after {
+  content: "\0020\f0d2\0020";
+  color: #bd081c;
+}
+ul.aclue > li > a[href^="https://www.paypal.com"]::before,
+a[href^="https://www.paypal.com"]::after {
+  content: "\0020\f1ed\0020";
+  color: #003087;
+}
+ul.aclue > li > a[href^="https://gratipay.com"]::before,
+a[href^="https://gratipay.com"]::after {
+  content: "\0020\f184\0020";
+  color: #663300;
+}
+ul.aclue > li > a[href^="https://www.google."]::before,
+a[href*="https://www.google."]::after {
+  content: "\0020\f1a0\0020";
+  color: #4285f4;
+}
+ul.aclue > li > a[href^="https://foursquare.com"]::before,
+a[href^="https://foursquare.com"]::after {
+  content: "\0020\f180\0020";
+  color: #2d5be3;
+}
+ul.aclue > li > a[href^="https://getpocket.com"]::before,
+a[href^="https://getpocket.com"]::after {
+  content: "\0020\f265\0020";
+  color: #ef4056;
+}
+ul.aclue > li > a[href^="https://www.flickr.com"]::before,
+a[href^="https://www.flickr.com"]::after {
+  content: "\0020\f16e\0020";
+  color: #ff0084;
+}
+ul.aclue > li > a[href^="http://www.deviantart.com"]::before,
+a[href^="http://www.deviantart.com"]::after {
+  content: "\0020\f1bd\0020";
+  color: #05cc47;
+}
+ul.aclue > li > a[href^="http://digg.com"]::before,
+a[href^="http://digg.com"]::after {
+  content: "\0020\f1a6\0020";
+  color: #005be2;
+}
+ul.aclue > li > a[href^="https://dribbble.com"]::before,
+a[href^="https://dribbble.com"]::after {
+  content: "\0020\f17d\0020";
+  color: #ff8833;
+}
+ul.aclue > li > a[href^="https://www.dropbox.com"]::before,
+a[href^="https://www.dropbox.com"]::after {
+  content: "\0020\f16b\0020";
+  color: #007ee5;
+}
+ul.aclue > li > a[href*="delicious.com"]::before,
+a[href*="delicious.com"]::after {
+  content: "\0020\f1a5\0020";
+  color: #3399ff;
+}
+ul.aclue > li > a[href^="https://www.tripadvisor."]::before,
+a[href^="https://www.tripadvisor."]::after {
+  content: "\0020\f262\0020";
+  color: #589442;
+}
+ul.aclue > li > a[href*="stumbleupon.com"]::before,
+a[href*="stumbleupon.com"]::after {
+  content: "\0020\f1a4\0020";
+  color: #ec4b24;
+}
+ul.aclue > li > a[href*=".yelp."]::before,
+a[href*=".yelp."]::after {
+  content: "\0020\f1e9\0020";
+  color: #af0606;
+}
+ul.aclue > li > a[href^="https://www.yahoo."]::before,
+a[href^="https://www.yahoo."]::after {
+  content: "\0020\f19e\0020";
+  color: #410093;
+}
+ul.aclue > li > a[href^="https://wordpress.com"]::before,
+a[href^="https://wordpress.com"]::after {
+  content: "\0020\f19a\0020";
+  color: #21759b;
+}
+ul.aclue > li > a[href*="wikipedia.org"]::before,
+a[href*="wikipedia.org"]::after {
+  content: "\0020\f266\0020";
+  color: #000000;
+}
+ul.aclue > li > a[href*="vk.com"]::before,
+a[href*="vk.com"]::after {
+  content: "\0020\f189\0020";
+  color: #45668e;
+}
+ul.aclue > li > a[href^="https://vimeo.com"]::before,
+a[href^="https://vimeo.com"]::after {
+  content: "\0020\f27d\0020";
+  color: #1ab7ea;
+}
+ul.aclue > li > a[href*="tumblr.com"]::before,
+a[href*="tumblr.com"]::after {
+  content: "\0020\f173\0020";
+  color: #35465c;
+}
