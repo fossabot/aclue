@@ -5,6 +5,9 @@ ul.aclue > li > a::before {
 ul.aclue  {
   list-style: none;
 }
+ul.aclue > li > a[href]::after {
+  content: none;
+}
 .aclue a::after {
   list-style: none;
   display: inline-block;
