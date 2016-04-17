@@ -72,6 +72,8 @@ a {
     padding: 2rem 1rem; } }
 
 .project-name {
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
