@@ -73,6 +73,7 @@ a {
 
 .project-name {
   color: #fff;
+  font-family: 'Pacifico', cursive;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   margin-top: 0;
   margin-bottom: 0.1rem; }
@@ -110,10 +111,9 @@ a {
   margin-top: 0; }
 .main-content img {
   max-width: 100%; }
-h1.project-name, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-family: 'Pacifico', cursive;
   font-weight: normal;
   color: #159957; }
 .main-content p {
