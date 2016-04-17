@@ -1,5 +1,5 @@
 a.clue
-======
+===
 ## A CSS library that links and anchors supplemented with icons
 Fancy icons and symbols for your great web project.
 Easy to use and uses the popular web font [FontAwesome](http://fortawesome.github.io/Font-Awesome/).
