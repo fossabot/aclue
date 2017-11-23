@@ -57,8 +57,8 @@ Lists with icons you make it so easy
 ```
 Work also fine with Twitter [Bootstrap](http://getbootstrap.com/). The full list of icons and a real application see you in the demo on [CodePen](http://codepen.io/rrmelcer/pen/MyjpQK?editors=1100).
 
-## Support me on Steemit
-Give me a upvote on [Steemit](https://steemit.com/utopian-io/@spite77/a-clue) :thumbsup:
+## Support this Project
+Give me a upvote on [Steemit](https://steemit.com/utopian-io/@spite77/a-clue) or on [Utopian.io](https://utopian.io/utopian-io/@spite77/a-clue) :thumbsup:
 
 ## License
 *"THE BEER-WARE LICENSE"* (Revision 42):
