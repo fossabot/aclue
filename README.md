@@ -66,3 +66,8 @@ Give me a upvote on [Steemit](https://steemit.com/utopian-io/@spite77/a-clue) or
 notice you can do whatever you want with this stuff. If we meet some day,
 and you think this stuff is worth it, you can buy me a beer in return.
 :beers: Raoul René Melcer
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/rrmelcer/aclue/badge.svg?style=beer-square)](https://beerpay.io/rrmelcer/aclue)  [![Beerpay](https://beerpay.io/rrmelcer/aclue/make-wish.svg?style=flat-square)](https://beerpay.io/rrmelcer/aclue?focus=wish)
