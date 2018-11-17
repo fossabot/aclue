@@ -67,7 +67,11 @@ notice you can do whatever you want with this stuff. If we meet some day,
 and you think this stuff is worth it, you can buy me a beer in return.
 :beers: Raoul René Melcer
 
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frrmelcer%2Faclue.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frrmelcer%2Faclue?ref=badge_large)
+
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
 
-[![Beerpay](https://beerpay.io/rrmelcer/aclue/badge.svg?style=beer-square)](https://beerpay.io/rrmelcer/aclue)  [![Beerpay](https://beerpay.io/rrmelcer/aclue/make-wish.svg?style=flat-square)](https://beerpay.io/rrmelcer/aclue?focus=wish)
+[![Beerpay](https://beerpay.io/rrmelcer/aclue/badge.svg?style=beer-square)](https://beerpay.io/rrmelcer/aclue) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frrmelcer%2Faclue.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frrmelcer%2Faclue?ref=badge_shield)
+ [![Beerpay](https://beerpay.io/rrmelcer/aclue/make-wish.svg?style=flat-square)](https://beerpay.io/rrmelcer/aclue?focus=wish)
